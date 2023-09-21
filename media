@@ -1,0 +1,17 @@
+#Comentário
+# Exibe uma mensagem na tela
+print('Exercício 02 - Média dos alunos')
+
+#Entrada de Dados pelo usuário
+#Solicita a entrada de um valor para o usuário 
+nome_do_aluno =input('Digite o Nome do Aluno : ')
+nota1 = float(input('Digite o Primeiro Nota : '))
+nota2 = float(input('Digite o Segundo Nota : '))
+nota3 = float(input('Digite o Terceira Nota : '))
+nota4 = float(input('Digite o Primeiro Nota : '))
+
+#Processamento dos Dados
+Resultado = (nota1 + nota2 + nota3 + nota4) /4
+
+#Saída dos Dados
+print ('A média Final do Aluno:  ',nome_do_aluno, 'é' , Resultado )
