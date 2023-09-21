@@ -1,0 +1,22 @@
+#Comentário
+# Exibe uma mensagem na tela
+print('Exercício 02 - Média dos alunos')
+
+#Entrada de Dados pelo usuário
+#Solicita a entrada de um valor para o usuário 
+nome_do_aluno =input('Digite o Nome do Aluno : ')
+nota1 = input('Digite o Primeiro Nota : ')
+nota2 = input('Digite o Segundo Nota : ')
+nota3 = input('Digite o Terceira Nota : ')
+nota4 = input('Digite o Primeiro Nota : ')
+
+#Processamento dos Dados
+##Permite localizar um caracter e substitui por outro
+nota1 = nota1.replace(',','.')
+nota2 = nota2.replace(',','.')
+nota3 = nota3.replace(',','.')
+nota4 = nota4.replace(',','.')
+Resultado = (nota1 + nota2 + nota3 + nota4) /4
+
+#Saída dos Dados
+print ('A média Final do Aluno:  ',nome_do_aluno, 'é' , Resultado )
